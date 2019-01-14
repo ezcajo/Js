@@ -90,3 +90,35 @@
 			arreglo = [5, 4, 3, 2, 1];
 			var arreglo5 = arreglo.slice(1, 3);// EL PRIMER NUMERO ES EL INDICE INICIAL Y EL SEGUNO ES EL INDICE FINAL SIN INCLUIR EL VALOR DE ESTE INDICE
 			console.log(arreglo5);
+
+			//EJEMPLOS 
+			var alumnos = [
+		{
+			nombre : 'Marcelo',
+			edad :50
+		},
+		{
+			nombre : 'Lautaro',
+			edad : 12
+		},
+		{
+			nombre : 'Silvia',
+			edad : 48
+		},
+		{
+			nombre : 'Jonathan',
+			edad : 19
+		}
+
+];
+
+console.log(alumnos);
+
+var ordenarNombre = alumnos.sort(function (alumno1, alumno2){
+	return alumno1.nombre> alumno2.nombre;
+});
+console.log(ordenarNombre);
+var ordenarEdad = alumnos.sort(function (alumno1, alumno2){
+	return alumno1.edad < alumno2.edad;
+});
+console.log(ordenarEdad);
