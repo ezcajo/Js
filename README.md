@@ -1,1 +1,1 @@
-# Practica de JaavaScript
+# Practica de JavaScript
