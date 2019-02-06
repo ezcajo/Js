@@ -39,15 +39,23 @@ canasto.forEach(function(valor, index) {
     })
     // MAP
     //recorre un array de Objetos
-let carrito = [
-{id:1, nombre:'Banana'},
-{id:2, nombre: 'Durazno'},
-{id:3, nombre: 'Manzana'},
-{id:4, nombre: 'Pera'}
-];
+    //devloviendo un arreglo con los datos solicitados
+let carrito = [{
+    id: 1,
+    nombre: 'Banana'
+}, {
+    id: 2,
+    nombre: 'Durazno'
+}, {
+    id: 3,
+    nombre: 'Manzana'
+}, {
+    id: 4,
+    nombre: 'Pera'
+}];
 
-let impresion = carrito.map(function(carrito){
-	return carrito.nombre;
+let impresion = carrito.map(function(carrito) {
+    return carrito.nombre;
 
 });
 
